@@ -40,6 +40,8 @@ class Melon:
             f"<Melon: {self.melon_id}, {self.common_name}, {self.price_str()}>"
         )
 
+    def add_quantity(self, quantity):
+        self.quantity = quantity
 
 def read_melon_types_from_file(filepath):
     """Read melon type data and populate dictionary of melon types.
